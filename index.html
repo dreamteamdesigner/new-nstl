@@ -8,11 +8,11 @@
 
     <!-- End of headStart -->
     <meta name="viewport" content="width=device-width">
-    <meta name="generator" content="Framer 0dc35dd">
+    <meta name="generator" content="Framer 2d3eba2">
     <title>Markspy dashboard</title>
     <meta name="description" content="Darkweb entries">
-    <meta name="framer-search-index" content="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/searchIndex-DEEq2uM0umiO.json">
-    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/searchIndex-ybhonOD0MkoK.json">
+    <meta name="framer-search-index" content="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/searchIndex-nnbguspN44Kc.json">
+    <meta name="framer-search-index-fallback" content="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/searchIndex-Wdl2qzL7Cilg.json">
     <link href="https://framerusercontent.com/images/73SV7Gon11XFH3b9UT7yb5245NU.jpeg" rel="icon" media="(prefers-color-scheme: light)">
     <link href="https://framerusercontent.com/images/73SV7Gon11XFH3b9UT7yb5245NU.jpeg" rel="icon" media="(prefers-color-scheme: dark)">
     <!-- Open Graph / Facebook -->
@@ -24,6 +24,285 @@
     <meta name="twitter:title" content="Markspy dashboard">
     <meta name="twitter:description" content="Darkweb entries">
 
+    <style data-framer-font-css>
+        /* latin-ext */
+
+        @font-face {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRR232VGM.woff2) format('woff2');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+
+        @font-face {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRSW32.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* vietnamese */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2) format('woff2');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* vietnamese */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2) format('woff2');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* vietnamese */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2) format('woff2');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("https://app.framerstatic.com/Inter-SemiBold.latin-RDYY2AG2.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: "Work Sans";
+            src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/G463L6WWJWSX4R6VTEVFCTIXPE3AUDEF/V4JHHUSZMHBPK3DFEHLGTZVXVBHVLZ7P/ND3FIMQYFEQ2VM2WWNXCGGBFYRPR7FMH.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400
+        }
+
+        @font-face {
+            font-family: "Work Sans";
+            src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/MBOJEUZXMXZXHAW3KKWUFI6R7OIPIRYU/FBJ6H6I7LKZ2WGOVP25FDJOOUIMXMY2Z/THXRGVPNH45VMHCGWEEJATJ2RCOHTNBI.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 500
+        }
+
+        @font-face {
+            font-family: "Work Sans";
+            src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/L2RFI5NTELDLWWGFIXXRCJFRMUAU4BD6/P3JDB7I7L2IP3N3IUAWFHSV5PXQQYUXX/NYV4ZQMHP7NXL6VB4VFS7ZGRB4HZ263N.woff2");
+            font-display: swap;
+            font-style: italic;
+            font-weight: 500
+        }
+
+        @font-face {
+            font-family: "Work Sans";
+            src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/VA23FCGWQ2ZGKFEM75LQVBDIR5XCXJI3/V5QYJZB23L2PDOZTWQY5F3I5R2B3UGCD/XUL6BSI7XTIWXDHGTQPLNOWHZU5CTO77.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 600
+        }
+
+        @font-face {
+            font-family: "Space Grotesk";
+            src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/GFEQC7SZ2XMFHB2INR6RE24JKHO5JNTS/R2HDHPNP7PMXFG5AIIV7PF3KFELSLGKJ/COAKOVM7H37QQIPEFBZNVR5EL4GEPLQU.woff2");
+            font-display: swap;
+            font-style: normal;
+            font-weight: 700
+        }
+
+        @font-face {
+            font-family: "DM Sans Placeholder";
+            src: local("Arial");
+            ascent-override: 94.35%;
+            descent-override: 29.49%;
+            line-gap-override: 0.00%;
+            size-adjust: 105.14%
+        }
+
+        @font-face {
+            font-family: "Space Grotesk Placeholder";
+            src: local("Arial");
+            ascent-override: 88.75%;
+            descent-override: 26.34%;
+            line-gap-override: 0.00%;
+            size-adjust: 110.87%
+        }
+
+        @font-face {
+            font-family: "Inter Placeholder";
+            src: local("Arial");
+            ascent-override: 89.79%;
+            descent-override: 22.36%;
+            line-gap-override: 0.00%;
+            size-adjust: 107.89%
+        }
+
+        @font-face {
+            font-family: "Work Sans Placeholder";
+            src: local("Arial");
+            ascent-override: 82.98%;
+            descent-override: 21.68%;
+            line-gap-override: 0.00%;
+            size-adjust: 112.07%
+        }
+
+        @font-face {
+            font-family: "Space Grotesk Placeholder";
+            src: local("Arial");
+            ascent-override: 88.74%;
+            descent-override: 26.33%;
+            line-gap-override: 0.00%;
+            size-adjust: 110.88%
+        }
+    </style>
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <meta name="robots" content="max-image-preview:large">
     <link rel="canonical" href="https://markspy777.framer.website/">
@@ -47,7 +326,7 @@
             }
         }
     </style>
-    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-PIhx2 framer-lib-form-plain-text-input PropertyOverrides">
+    <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-JjOXu framer-lib-form-plain-text-input PropertyOverrides">
         html,
         body,
         #main {
@@ -84,325 +363,6 @@
         button {
             font-family: sans-serif;
             font-size: 12px
-        }
-
-        @font-face {
-            font-family: DM Sans;
-            font-style: normal;
-            font-weight: 600;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRR232VGM.woff2)format("woff2");
-            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
-        }
-
-        @font-face {
-            font-family: DM Sans;
-            font-style: normal;
-            font-weight: 600;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJtRSW32.woff2)format("woff2");
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2)format("woff2");
-            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2)format("woff2");
-            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)format("woff2");
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 500;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2)format("woff2");
-            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 500;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2)format("woff2");
-            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 500;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)format("woff2");
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 600;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2)format("woff2");
-            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 600;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2)format("woff2");
-            unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            font-style: normal;
-            font-weight: 600;
-            font-display: swap;
-            src: url(https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2)format("woff2");
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+1F??
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+370-3FF
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400;
-            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+1F??
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+370-3FF
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB
-        }
-
-        @font-face {
-            font-family: Inter;
-            src: url(https://app.framerstatic.com/Inter-SemiBold.latin-RDYY2AG2.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600;
-            unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-        }
-
-        @font-face {
-            font-family: Work Sans;
-            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/G463L6WWJWSX4R6VTEVFCTIXPE3AUDEF/V4JHHUSZMHBPK3DFEHLGTZVXVBHVLZ7P/ND3FIMQYFEQ2VM2WWNXCGGBFYRPR7FMH.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 400
-        }
-
-        @font-face {
-            font-family: Work Sans;
-            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/MBOJEUZXMXZXHAW3KKWUFI6R7OIPIRYU/FBJ6H6I7LKZ2WGOVP25FDJOOUIMXMY2Z/THXRGVPNH45VMHCGWEEJATJ2RCOHTNBI.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 500
-        }
-
-        @font-face {
-            font-family: Work Sans;
-            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/L2RFI5NTELDLWWGFIXXRCJFRMUAU4BD6/P3JDB7I7L2IP3N3IUAWFHSV5PXQQYUXX/NYV4ZQMHP7NXL6VB4VFS7ZGRB4HZ263N.woff2);
-            font-display: swap;
-            font-style: italic;
-            font-weight: 500
-        }
-
-        @font-face {
-            font-family: Work Sans;
-            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/VA23FCGWQ2ZGKFEM75LQVBDIR5XCXJI3/V5QYJZB23L2PDOZTWQY5F3I5R2B3UGCD/XUL6BSI7XTIWXDHGTQPLNOWHZU5CTO77.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 600
-        }
-
-        @font-face {
-            font-family: Space Grotesk;
-            src: url(https://framerusercontent.com/third-party-assets/fontshare/wf/GFEQC7SZ2XMFHB2INR6RE24JKHO5JNTS/R2HDHPNP7PMXFG5AIIV7PF3KFELSLGKJ/COAKOVM7H37QQIPEFBZNVR5EL4GEPLQU.woff2);
-            font-display: swap;
-            font-style: normal;
-            font-weight: 700
-        }
-
-        @font-face {
-            font-family: DM Sans Placeholder;
-            src: local(Arial);
-            ascent-override: 94.35%;
-            descent-override: 29.49%;
-            line-gap-override: 0.0%;
-            size-adjust: 105.14%
-        }
-
-        @font-face {
-            font-family: Space Grotesk Placeholder;
-            src: local(Arial);
-            ascent-override: 88.75%;
-            descent-override: 26.34%;
-            line-gap-override: 0.0%;
-            size-adjust: 110.87%
-        }
-
-        @font-face {
-            font-family: Inter Placeholder;
-            src: local(Arial);
-            ascent-override: 89.79%;
-            descent-override: 22.36%;
-            line-gap-override: 0.0%;
-            size-adjust: 107.89%
-        }
-
-        @font-face {
-            font-family: Work Sans Placeholder;
-            src: local(Arial);
-            ascent-override: 82.98%;
-            descent-override: 21.68%;
-            line-gap-override: 0.0%;
-            size-adjust: 112.07%
-        }
-
-        @font-face {
-            font-family: Space Grotesk Placeholder;
-            src: local(Arial);
-            ascent-override: 88.74%;
-            descent-override: 26.33%;
-            line-gap-override: 0.0%;
-            size-adjust: 110.88%
         }
 
         body {
@@ -583,8 +543,11 @@
             font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
             letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
             text-transform: var(--framer-blockquote-text-transform, var(--framer-text-transform, none));
+            -webkit-text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, initial));
             text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, initial));
+            -webkit-text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-text-decoration-style, initial));
             text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-text-decoration-style, initial));
+            -webkit-text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-text-decoration-color, initial));
             text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-text-decoration-color, initial));
             text-decoration-thickness: var(--framer-blockquote-text-decoration-thickness, var(--framer-text-decoration-thickness, initial));
             text-decoration-skip-ink: var(--framer-blockquote-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial));
@@ -739,8 +702,11 @@
 
         a.framer-text,
         span.framer-text[data-nested-link] {
+            -webkit-text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
             text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
+            -webkit-text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
             text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
+            -webkit-text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
             text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
             text-decoration-thickness: var(--framer-blockquote-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial)));
             text-decoration-skip-ink: var(--framer-blockquote-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial)));
@@ -794,8 +760,11 @@
 
         a.framer-text:hover,
         span.framer-text[data-nested-link]:hover {
+            -webkit-text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
             text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
+            -webkit-text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
             text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
+            -webkit-text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
             text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
             text-decoration-thickness: var(--framer-link-hover-text-decoration-thickness, var(--framer-blockquote-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial))));
             text-decoration-skip-ink: var(--framer-link-hover-text-decoration-skip-ink, var(--framer-blockquote-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial))));
@@ -849,8 +818,11 @@
 
         a.framer-text[data-framer-page-link-current],
         span.framer-text[data-framer-page-link-current] {
+            -webkit-text-decoration-line: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
             text-decoration-line: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
+            -webkit-text-decoration-style: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
             text-decoration-style: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
+            -webkit-text-decoration-color: var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
             text-decoration-color: var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
             text-decoration-thickness: var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial)));
             text-decoration-skip-ink: var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial)));
@@ -905,8 +877,11 @@
 
         a.framer-text[data-framer-page-link-current]:hover,
         span.framer-text[data-framer-page-link-current]:hover {
+            -webkit-text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
             text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
+            -webkit-text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
             text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
+            -webkit-text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
             text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
             text-decoration-thickness: var(--framer-link-hover-text-decoration-thickness, var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial))));
             text-decoration-skip-ink: var(--framer-link-hover-text-decoration-skip-ink, var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial))));
@@ -1118,6 +1093,7 @@
             font-size: var(--framer-font-size, 16px);
             letter-spacing: var(--framer-letter-spacing, 0);
             text-transform: var(--framer-text-transform, none);
+            -webkit-text-decoration: var(--framer-text-decoration, none);
             text-decoration: var(--framer-text-decoration, none);
             line-height: var(--framer-line-height, 1.2em);
             text-align: var(--framer-text-alignment, start)
@@ -1152,6 +1128,7 @@
             color: var(--framer-link-text-color, var(--framer-text-color, #000));
             font-size: var(--framer-link-font-size, var(--framer-font-size, 16px));
             text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+            -webkit-text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none));
             text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none))
         }
 
@@ -1163,6 +1140,7 @@
             color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
             font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
             text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            -webkit-text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)));
             text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
         }
 
@@ -1174,6 +1152,7 @@
             color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
             font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
             text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            -webkit-text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)));
             text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
         }
 
@@ -1185,6 +1164,7 @@
             color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
             font-size: var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))));
             text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            -webkit-text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))));
             text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
         }
 
@@ -1384,6 +1364,11 @@
             }
         }
 
+        .framer-lightbox-container {
+            opacity: 1 !important;
+            pointer-events: auto !important
+        }
+
         .framer-cursor-none,
         .framer-cursor-none * {
             cursor: none !important
@@ -1400,12 +1385,12 @@
             }
         }
 
-        .framer-PIhx2.framer-lux5qc,
-        .framer-PIhx2 .framer-lux5qc {
+        .framer-JjOXu.framer-lux5qc,
+        .framer-JjOXu .framer-lux5qc {
             display: block
         }
 
-        .framer-PIhx2.framer-72rtr7 {
+        .framer-JjOXu.framer-72rtr7 {
             height: min-content;
             overflow: var(--overflow-clip-fallback, clip);
             background-color: #fff;
@@ -1419,7 +1404,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-t04yvy {
+        .framer-JjOXu .framer-t04yvy {
             background-color: #fff;
             flex-flow: column;
             flex: none;
@@ -1434,7 +1419,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-13n1710 {
+        .framer-JjOXu .framer-13n1710 {
             z-index: 1;
             flex-flow: row;
             flex: none;
@@ -1449,7 +1434,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-5lulpz {
+        .framer-JjOXu .framer-5lulpz {
             flex-flow: column;
             flex: none;
             place-content: center;
@@ -1463,22 +1448,22 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-76ni2w,
-        .framer-PIhx2 .framer-zxnn2r,
-        .framer-PIhx2 .framer-132zju2,
-        .framer-PIhx2 .framer-1xfhaey,
-        .framer-PIhx2 .framer-159aptn,
-        .framer-PIhx2 .framer-vb16v6,
-        .framer-PIhx2 .framer-1s24hcv,
-        .framer-PIhx2 .framer-y86c20,
-        .framer-PIhx2 .framer-r8e7ne,
-        .framer-PIhx2 .framer-5quaq6,
-        .framer-PIhx2 .framer-asg6pc,
-        .framer-PIhx2 .framer-195qm8h,
-        .framer-PIhx2 .framer-dn9n1z,
-        .framer-PIhx2 .framer-cjbg7o,
-        .framer-PIhx2 .framer-120shf2,
-        .framer-PIhx2 .framer-143i4e5 {
+        .framer-JjOXu .framer-76ni2w,
+        .framer-JjOXu .framer-zxnn2r,
+        .framer-JjOXu .framer-132zju2,
+        .framer-JjOXu .framer-1xfhaey,
+        .framer-JjOXu .framer-159aptn,
+        .framer-JjOXu .framer-vb16v6,
+        .framer-JjOXu .framer-1s24hcv,
+        .framer-JjOXu .framer-y86c20,
+        .framer-JjOXu .framer-r8e7ne,
+        .framer-JjOXu .framer-5quaq6,
+        .framer-JjOXu .framer-asg6pc,
+        .framer-JjOXu .framer-195qm8h,
+        .framer-JjOXu .framer-dn9n1z,
+        .framer-JjOXu .framer-cjbg7o,
+        .framer-JjOXu .framer-120shf2,
+        .framer-JjOXu .framer-143i4e5 {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -1492,103 +1477,103 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1flsmf2,
-        .framer-PIhx2 .framer-1eilzfp,
-        .framer-PIhx2 .framer-1jargq6,
-        .framer-PIhx2 .framer-frxdy,
-        .framer-PIhx2 .framer-knsj9n,
-        .framer-PIhx2 .framer-1u5624q,
-        .framer-PIhx2 .framer-2nm8fe {
+        .framer-JjOXu .framer-1flsmf2,
+        .framer-JjOXu .framer-1eilzfp,
+        .framer-JjOXu .framer-1jargq6,
+        .framer-JjOXu .framer-frxdy,
+        .framer-JjOXu .framer-knsj9n,
+        .framer-JjOXu .framer-1u5624q,
+        .framer-JjOXu .framer-2nm8fe {
             flex: none;
             width: 24px;
             height: 24px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-ur7119,
-        .framer-PIhx2 .framer-m0kkuv,
-        .framer-PIhx2 .framer-3xcdo3,
-        .framer-PIhx2 .framer-2nx2ax,
-        .framer-PIhx2 .framer-19ieffi,
-        .framer-PIhx2 .framer-12pisea,
-        .framer-PIhx2 .framer-1056clz,
-        .framer-PIhx2 .framer-1dwwiie,
-        .framer-PIhx2 .framer-i80qjk,
-        .framer-PIhx2 .framer-1hts7lk,
-        .framer-PIhx2 .framer-6rwh8n,
-        .framer-PIhx2 .framer-13wc0ne,
-        .framer-PIhx2 .framer-7id5x7,
-        .framer-PIhx2 .framer-batc6e,
-        .framer-PIhx2 .framer-1ioqh86,
-        .framer-PIhx2 .framer-7iejwi,
-        .framer-PIhx2 .framer-pod3ep,
-        .framer-PIhx2 .framer-1darbce,
-        .framer-PIhx2 .framer-oouqmu,
-        .framer-PIhx2 .framer-1s74dgo,
-        .framer-PIhx2 .framer-1jw7hz8,
-        .framer-PIhx2 .framer-mfxjwl,
-        .framer-PIhx2 .framer-1ukd4r8,
-        .framer-PIhx2 .framer-no7jo5,
-        .framer-PIhx2 .framer-1s7dxx0,
-        .framer-PIhx2 .framer-8yzffi,
-        .framer-PIhx2 .framer-bnwo0l,
-        .framer-PIhx2 .framer-1pljiin,
-        .framer-PIhx2 .framer-1trncb9,
-        .framer-PIhx2 .framer-zny4xv,
-        .framer-PIhx2 .framer-15ujg0x,
-        .framer-PIhx2 .framer-1lzm9vv,
-        .framer-PIhx2 .framer-t3ktcf,
-        .framer-PIhx2 .framer-1wmyhtz,
-        .framer-PIhx2 .framer-nw6ti3,
-        .framer-PIhx2 .framer-1m6oy24,
-        .framer-PIhx2 .framer-1cm9z0x,
-        .framer-PIhx2 .framer-lrpfmo,
-        .framer-PIhx2 .framer-13fz0eh,
-        .framer-PIhx2 .framer-14i7502,
-        .framer-PIhx2 .framer-197zmtc,
-        .framer-PIhx2 .framer-12tkb2q,
-        .framer-PIhx2 .framer-1xlinjf,
-        .framer-PIhx2 .framer-ieus3q,
-        .framer-PIhx2 .framer-1usc92o,
-        .framer-PIhx2 .framer-hrigjf,
-        .framer-PIhx2 .framer-1hwupwo,
-        .framer-PIhx2 .framer-fwvb1k,
-        .framer-PIhx2 .framer-1v6g6th,
-        .framer-PIhx2 .framer-1n4om8z,
-        .framer-PIhx2 .framer-1ng4n3m,
-        .framer-PIhx2 .framer-q85qy0,
-        .framer-PIhx2 .framer-1mo4wu5,
-        .framer-PIhx2 .framer-oxk27r,
-        .framer-PIhx2 .framer-q39geu,
-        .framer-PIhx2 .framer-1szi3a,
-        .framer-PIhx2 .framer-1p4yhym,
-        .framer-PIhx2 .framer-ur9l6o,
-        .framer-PIhx2 .framer-innraa,
-        .framer-PIhx2 .framer-74rmwr,
-        .framer-PIhx2 .framer-zxstbr,
-        .framer-PIhx2 .framer-1yd2sho,
-        .framer-PIhx2 .framer-xf9yzf,
-        .framer-PIhx2 .framer-1j5jbwl,
-        .framer-PIhx2 .framer-oq8tyg,
-        .framer-PIhx2 .framer-egy8az,
-        .framer-PIhx2 .framer-1s9tot6,
-        .framer-PIhx2 .framer-1epypm,
-        .framer-PIhx2 .framer-lf6zoc,
-        .framer-PIhx2 .framer-562gyw,
-        .framer-PIhx2 .framer-10e06qv,
-        .framer-PIhx2 .framer-nm7b5v,
-        .framer-PIhx2 .framer-1jpv1g6,
-        .framer-PIhx2 .framer-dzct4x,
-        .framer-PIhx2 .framer-3kjj8k,
-        .framer-PIhx2 .framer-25jtvs,
-        .framer-PIhx2 .framer-1ym2mx4,
-        .framer-PIhx2 .framer-11ydcd9,
-        .framer-PIhx2 .framer-118mw4q,
-        .framer-PIhx2 .framer-1j65rb5,
-        .framer-PIhx2 .framer-13gx3js,
-        .framer-PIhx2 .framer-16uw82j,
-        .framer-PIhx2 .framer-v7ill1,
-        .framer-PIhx2 .framer-ho3pv9 {
+        .framer-JjOXu .framer-ur7119,
+        .framer-JjOXu .framer-m0kkuv,
+        .framer-JjOXu .framer-3xcdo3,
+        .framer-JjOXu .framer-2nx2ax,
+        .framer-JjOXu .framer-19ieffi,
+        .framer-JjOXu .framer-12pisea,
+        .framer-JjOXu .framer-1056clz,
+        .framer-JjOXu .framer-1dwwiie,
+        .framer-JjOXu .framer-i80qjk,
+        .framer-JjOXu .framer-1hts7lk,
+        .framer-JjOXu .framer-6rwh8n,
+        .framer-JjOXu .framer-13wc0ne,
+        .framer-JjOXu .framer-7id5x7,
+        .framer-JjOXu .framer-batc6e,
+        .framer-JjOXu .framer-1ioqh86,
+        .framer-JjOXu .framer-7iejwi,
+        .framer-JjOXu .framer-pod3ep,
+        .framer-JjOXu .framer-1darbce,
+        .framer-JjOXu .framer-oouqmu,
+        .framer-JjOXu .framer-1s74dgo,
+        .framer-JjOXu .framer-1jw7hz8,
+        .framer-JjOXu .framer-mfxjwl,
+        .framer-JjOXu .framer-1ukd4r8,
+        .framer-JjOXu .framer-no7jo5,
+        .framer-JjOXu .framer-1s7dxx0,
+        .framer-JjOXu .framer-8yzffi,
+        .framer-JjOXu .framer-bnwo0l,
+        .framer-JjOXu .framer-1pljiin,
+        .framer-JjOXu .framer-1trncb9,
+        .framer-JjOXu .framer-zny4xv,
+        .framer-JjOXu .framer-15ujg0x,
+        .framer-JjOXu .framer-1lzm9vv,
+        .framer-JjOXu .framer-t3ktcf,
+        .framer-JjOXu .framer-1wmyhtz,
+        .framer-JjOXu .framer-nw6ti3,
+        .framer-JjOXu .framer-1m6oy24,
+        .framer-JjOXu .framer-1cm9z0x,
+        .framer-JjOXu .framer-lrpfmo,
+        .framer-JjOXu .framer-13fz0eh,
+        .framer-JjOXu .framer-14i7502,
+        .framer-JjOXu .framer-197zmtc,
+        .framer-JjOXu .framer-12tkb2q,
+        .framer-JjOXu .framer-1xlinjf,
+        .framer-JjOXu .framer-ieus3q,
+        .framer-JjOXu .framer-1usc92o,
+        .framer-JjOXu .framer-hrigjf,
+        .framer-JjOXu .framer-1hwupwo,
+        .framer-JjOXu .framer-fwvb1k,
+        .framer-JjOXu .framer-1v6g6th,
+        .framer-JjOXu .framer-1n4om8z,
+        .framer-JjOXu .framer-1ng4n3m,
+        .framer-JjOXu .framer-q85qy0,
+        .framer-JjOXu .framer-1mo4wu5,
+        .framer-JjOXu .framer-oxk27r,
+        .framer-JjOXu .framer-q39geu,
+        .framer-JjOXu .framer-1szi3a,
+        .framer-JjOXu .framer-1p4yhym,
+        .framer-JjOXu .framer-ur9l6o,
+        .framer-JjOXu .framer-innraa,
+        .framer-JjOXu .framer-74rmwr,
+        .framer-JjOXu .framer-zxstbr,
+        .framer-JjOXu .framer-1yd2sho,
+        .framer-JjOXu .framer-xf9yzf,
+        .framer-JjOXu .framer-1j5jbwl,
+        .framer-JjOXu .framer-oq8tyg,
+        .framer-JjOXu .framer-egy8az,
+        .framer-JjOXu .framer-1s9tot6,
+        .framer-JjOXu .framer-1epypm,
+        .framer-JjOXu .framer-lf6zoc,
+        .framer-JjOXu .framer-562gyw,
+        .framer-JjOXu .framer-10e06qv,
+        .framer-JjOXu .framer-nm7b5v,
+        .framer-JjOXu .framer-1jpv1g6,
+        .framer-JjOXu .framer-dzct4x,
+        .framer-JjOXu .framer-3kjj8k,
+        .framer-JjOXu .framer-25jtvs,
+        .framer-JjOXu .framer-1ym2mx4,
+        .framer-JjOXu .framer-11ydcd9,
+        .framer-JjOXu .framer-118mw4q,
+        .framer-JjOXu .framer-1j65rb5,
+        .framer-JjOXu .framer-13gx3js,
+        .framer-JjOXu .framer-16uw82j,
+        .framer-JjOXu .framer-v7ill1,
+        .framer-JjOXu .framer-ho3pv9 {
             --framer-paragraph-spacing: 0px;
             white-space: pre;
             flex: none;
@@ -1597,7 +1582,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-167y1ym {
+        .framer-JjOXu .framer-167y1ym {
             flex-flow: column;
             flex: none;
             place-content: flex-end center;
@@ -1611,7 +1596,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-1601psb {
+        .framer-JjOXu .framer-1601psb {
             flex-flow: row;
             flex: 1 0 0;
             place-content: center;
@@ -1625,7 +1610,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-6zz41o {
+        .framer-JjOXu .framer-6zz41o {
             flex-flow: row;
             flex: none;
             place-content: center flex-end;
@@ -1639,7 +1624,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-dwoedl {
+        .framer-JjOXu .framer-dwoedl {
             height: min-content;
             overflow: var(--overflow-clip-fallback, clip);
             flex-flow: row;
@@ -1653,7 +1638,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-1yjuoxr {
+        .framer-JjOXu .framer-1yjuoxr {
             --framer-input-background: #f2f2f2;
             --framer-input-border-bottom-width: 1px;
             --framer-input-border-color: #0000000d;
@@ -1685,7 +1670,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-1ei6hyu {
+        .framer-JjOXu .framer-1ei6hyu {
             z-index: 1;
             flex: none;
             width: 16px;
@@ -1695,7 +1680,7 @@
             right: 12px
         }
 
-        .framer-PIhx2 .framer-bzhelw {
+        .framer-JjOXu .framer-bzhelw {
             --border-bottom-width: .727273px;
             --border-color: #2121211a;
             --border-left-width: .727273px;
@@ -1717,24 +1702,24 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-1bwnjtz {
+        .framer-JjOXu .framer-1bwnjtz {
             flex: none;
             width: 16px;
             height: 16px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-dmvdxu,
-        .framer-PIhx2 .framer-1v5sp5s {
+        .framer-JjOXu .framer-dmvdxu,
+        .framer-JjOXu .framer-1v5sp5s {
             flex: none;
             width: 32px;
             height: 32px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-7k14i,
-        .framer-PIhx2 .framer-lbh6dn,
-        .framer-PIhx2 .framer-ywuhrl {
+        .framer-JjOXu .framer-7k14i,
+        .framer-JjOXu .framer-lbh6dn,
+        .framer-JjOXu .framer-ywuhrl {
             flex-flow: row;
             flex: none;
             place-content: center flex-start;
@@ -1748,7 +1733,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-19plmyb {
+        .framer-JjOXu .framer-19plmyb {
             flex-flow: column;
             flex: none;
             place-content: flex-start center;
@@ -1762,8 +1747,8 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1ddranq,
-        .framer-PIhx2 .framer-2tvcz8 {
+        .framer-JjOXu .framer-1ddranq,
+        .framer-JjOXu .framer-2tvcz8 {
             flex-flow: row;
             flex: none;
             place-content: center flex-start;
@@ -1777,17 +1762,17 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1p38xoc,
-        .framer-PIhx2 .framer-h4x2r,
-        .framer-PIhx2 .framer-1g24uo7,
-        .framer-PIhx2 .framer-yexjv2 {
+        .framer-JjOXu .framer-1p38xoc,
+        .framer-JjOXu .framer-h4x2r,
+        .framer-JjOXu .framer-1g24uo7,
+        .framer-JjOXu .framer-yexjv2 {
             flex: none;
             width: 4px;
             height: 14px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-1ufordd {
+        .framer-JjOXu .framer-1ufordd {
             flex-flow: row;
             flex: 1 0 0;
             place-content: center flex-start;
@@ -1801,7 +1786,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-2qzs81 {
+        .framer-JjOXu .framer-2qzs81 {
             flex-flow: column;
             flex: none;
             place-content: flex-start space-between;
@@ -1814,8 +1799,8 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-we0yhg,
-        .framer-PIhx2 .framer-1nwha69 {
+        .framer-JjOXu .framer-we0yhg,
+        .framer-JjOXu .framer-1nwha69 {
             flex-flow: column;
             flex: none;
             place-content: flex-start;
@@ -1829,7 +1814,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-t9fxy7 {
+        .framer-JjOXu .framer-t9fxy7 {
             will-change: var(--framer-will-change-override, transform);
             background-color: #21212108;
             border-radius: 10px;
@@ -1846,18 +1831,18 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-9qg1ua,
-        .framer-PIhx2 .framer-1bhcs6j,
-        .framer-PIhx2 .framer-14tqqph,
-        .framer-PIhx2 .framer-434eau,
-        .framer-PIhx2 .framer-1hgovt6 {
+        .framer-JjOXu .framer-9qg1ua,
+        .framer-JjOXu .framer-1bhcs6j,
+        .framer-JjOXu .framer-14tqqph,
+        .framer-JjOXu .framer-434eau,
+        .framer-JjOXu .framer-1hgovt6 {
             flex: none;
             width: 20px;
             height: 20px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-1mfwms4 {
+        .framer-JjOXu .framer-1mfwms4 {
             will-change: var(--framer-will-change-override, transform);
             border-radius: 10px;
             flex-flow: column;
@@ -1873,10 +1858,10 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-ax3ty8,
-        .framer-PIhx2 .framer-1lh7b4a,
-        .framer-PIhx2 .framer-1ttbw9a,
-        .framer-PIhx2 .framer-1ouxd45 {
+        .framer-JjOXu .framer-ax3ty8,
+        .framer-JjOXu .framer-1lh7b4a,
+        .framer-JjOXu .framer-1ttbw9a,
+        .framer-JjOXu .framer-1ouxd45 {
             flex-flow: column;
             flex: none;
             place-content: flex-start center;
@@ -1890,15 +1875,15 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-b9g5ui,
-        .framer-PIhx2 .framer-8xf6c2 {
+        .framer-JjOXu .framer-b9g5ui,
+        .framer-JjOXu .framer-8xf6c2 {
             flex: none;
             width: 19px;
             height: 19px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-170l14k {
+        .framer-JjOXu .framer-170l14k {
             flex-flow: column;
             flex: 1 0 0;
             place-content: flex-start;
@@ -1912,7 +1897,7 @@
             overflow: auto
         }
 
-        .framer-PIhx2 .framer-xsdog9 {
+        .framer-JjOXu .framer-xsdog9 {
             background-color: #fff;
             flex-flow: column;
             flex: none;
@@ -1927,8 +1912,8 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-fx5i05,
-        .framer-PIhx2 .framer-q13uq5 {
+        .framer-JjOXu .framer-fx5i05,
+        .framer-JjOXu .framer-q13uq5 {
             flex-flow: row;
             flex: none;
             place-content: flex-start;
@@ -1942,7 +1927,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-21anfs {
+        .framer-JjOXu .framer-21anfs {
             flex-flow: column;
             flex: 1 0 0;
             place-content: flex-start center;
@@ -1956,7 +1941,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-nsude0 {
+        .framer-JjOXu .framer-nsude0 {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -1978,7 +1963,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-10my308 {
+        .framer-JjOXu .framer-10my308 {
             flex-flow: column;
             flex: 1 0 0;
             place-content: center flex-end;
@@ -1992,7 +1977,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-b2kqy1 {
+        .framer-JjOXu .framer-b2kqy1 {
             flex-flow: column;
             flex: none;
             place-content: center flex-start;
@@ -2006,7 +1991,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-187ttu9 {
+        .framer-JjOXu .framer-187ttu9 {
             flex-flow: row;
             flex: none;
             place-content: flex-start;
@@ -2020,7 +2005,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-j4miv2 {
+        .framer-JjOXu .framer-j4miv2 {
             cursor: pointer;
             background: linear-gradient(90deg, #050505 0%, #6b6b6b 50%, #050505 100%);
             border-radius: 10px;
@@ -2037,8 +2022,9 @@
             overflow: visible
         }
 
-        .framer-PIhx2.framer-bhqphd,
-        .framer-PIhx2.framer-zavlxn {
+        .framer-JjOXu.framer-bhqphd,
+        .framer-JjOXu.framer-zavlxn {
+            -webkit-user-select: none;
             user-select: none;
             z-index: 1;
             background-color: #000c;
@@ -2046,7 +2032,7 @@
             inset: 0
         }
 
-        .framer-PIhx2.framer-wx8lua-container {
+        .framer-JjOXu.framer-wx8lua-container {
             will-change: var(--framer-will-change-effect-override, transform);
             z-index: 1;
             flex: none;
@@ -2059,7 +2045,7 @@
             transform: translate(-50%)
         }
 
-        .framer-PIhx2 .framer-16tnwek {
+        .framer-JjOXu .framer-16tnwek {
             --border-bottom-width: 1px;
             --border-color: #0000000d;
             --border-left-width: 1px;
@@ -2081,7 +2067,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-tow32w {
+        .framer-JjOXu .framer-tow32w {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -2102,7 +2088,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1jgi59i {
+        .framer-JjOXu .framer-1jgi59i {
             flex-flow: column;
             flex: 1 0 0;
             place-content: center;
@@ -2116,8 +2102,8 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1kk8quo,
-        .framer-PIhx2 .framer-yn7j0v {
+        .framer-JjOXu .framer-1kk8quo,
+        .framer-JjOXu .framer-yn7j0v {
             opacity: 0;
             flex-flow: row;
             flex: 1 0 0;
@@ -2131,11 +2117,11 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-126pu6m,
-        .framer-PIhx2 .framer-wxi0ur,
-        .framer-PIhx2 .framer-1axk30g,
-        .framer-PIhx2 .framer-ccmwo7,
-        .framer-PIhx2 .framer-542ee4 {
+        .framer-JjOXu .framer-126pu6m,
+        .framer-JjOXu .framer-wxi0ur,
+        .framer-JjOXu .framer-1axk30g,
+        .framer-JjOXu .framer-ccmwo7,
+        .framer-JjOXu .framer-542ee4 {
             flex-flow: row;
             flex: none;
             place-content: center flex-start;
@@ -2149,12 +2135,12 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1uvly9e,
-        .framer-PIhx2 .framer-ojbzol,
-        .framer-PIhx2 .framer-lbkc7v,
-        .framer-PIhx2 .framer-4i1rs0,
-        .framer-PIhx2 .framer-wwqcdq,
-        .framer-PIhx2 .framer-1g263yr {
+        .framer-JjOXu .framer-1uvly9e,
+        .framer-JjOXu .framer-ojbzol,
+        .framer-JjOXu .framer-lbkc7v,
+        .framer-JjOXu .framer-4i1rs0,
+        .framer-JjOXu .framer-wwqcdq,
+        .framer-JjOXu .framer-1g263yr {
             flex-flow: column;
             flex: none;
             place-content: flex-start center;
@@ -2168,8 +2154,8 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-10q5vi6,
-        .framer-PIhx2 .framer-r5mlgo {
+        .framer-JjOXu .framer-10q5vi6,
+        .framer-JjOXu .framer-r5mlgo {
             flex-flow: column;
             flex: none;
             place-content: flex-end flex-start;
@@ -2183,7 +2169,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-13icft6 {
+        .framer-JjOXu .framer-13icft6 {
             aspect-ratio: 1;
             height: var(--framer-aspect-ratio-supported, 24px);
             flex: none;
@@ -2191,7 +2177,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-17sl6ql {
+        .framer-JjOXu .framer-17sl6ql {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -2213,7 +2199,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-1b3iwem {
+        .framer-JjOXu .framer-1b3iwem {
             flex-flow: row;
             flex: none;
             place-content: flex-start;
@@ -2227,9 +2213,9 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1vdvve4,
-        .framer-PIhx2 .framer-1xewmhm,
-        .framer-PIhx2 .framer-1b2tcun {
+        .framer-JjOXu .framer-1vdvve4,
+        .framer-JjOXu .framer-1xewmhm,
+        .framer-JjOXu .framer-1b2tcun {
             --border-bottom-width: 1px;
             --border-color: #0000000d;
             --border-left-width: 1px;
@@ -2251,12 +2237,12 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-1li4mp2,
-        .framer-PIhx2 .framer-170u7sw,
-        .framer-PIhx2 .framer-1t1ronr,
-        .framer-PIhx2 .framer-1f56d5a,
-        .framer-PIhx2 .framer-74jvd,
-        .framer-PIhx2 .framer-1baegun {
+        .framer-JjOXu .framer-1li4mp2,
+        .framer-JjOXu .framer-170u7sw,
+        .framer-JjOXu .framer-1t1ronr,
+        .framer-JjOXu .framer-1f56d5a,
+        .framer-JjOXu .framer-74jvd,
+        .framer-JjOXu .framer-1baegun {
             flex-flow: row;
             flex: none;
             place-content: center space-between;
@@ -2269,26 +2255,26 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-zasthn,
-        .framer-PIhx2 .framer-1ua9y1t,
-        .framer-PIhx2 .framer-hkv6p3,
-        .framer-PIhx2 .framer-1fo82dc {
+        .framer-JjOXu .framer-zasthn,
+        .framer-JjOXu .framer-1ua9y1t,
+        .framer-JjOXu .framer-hkv6p3,
+        .framer-JjOXu .framer-1fo82dc {
             flex: none;
             width: 28px;
             height: 28px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-1iqd381 {
+        .framer-JjOXu .framer-1iqd381 {
             flex: none;
             width: 31px;
             height: 30px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-7t05c6,
-        .framer-PIhx2 .framer-1tx6ybp,
-        .framer-PIhx2 .framer-1vcy8u4 {
+        .framer-JjOXu .framer-7t05c6,
+        .framer-JjOXu .framer-1tx6ybp,
+        .framer-JjOXu .framer-1vcy8u4 {
             --framer-paragraph-spacing: 0px;
             white-space: pre-wrap;
             word-break: break-word;
@@ -2299,10 +2285,10 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-hrshea,
-        .framer-PIhx2 .framer-rw7i0h,
-        .framer-PIhx2 .framer-h2254n,
-        .framer-PIhx2 .framer-1syods0 {
+        .framer-JjOXu .framer-hrshea,
+        .framer-JjOXu .framer-rw7i0h,
+        .framer-JjOXu .framer-h2254n,
+        .framer-JjOXu .framer-1syods0 {
             flex-flow: row;
             flex: none;
             place-content: center;
@@ -2316,8 +2302,8 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-5pjeb6,
-        .framer-PIhx2 .framer-1n9eaxn {
+        .framer-JjOXu .framer-5pjeb6,
+        .framer-JjOXu .framer-1n9eaxn {
             --border-bottom-width: 1px;
             --border-color: #4c06;
             --border-left-width: 1px;
@@ -2339,20 +2325,20 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-22ef1h,
-        .framer-PIhx2 .framer-1nbvk1t,
-        .framer-PIhx2 .framer-1i60p8t,
-        .framer-PIhx2 .framer-1oujeid,
-        .framer-PIhx2 .framer-rca2sh,
-        .framer-PIhx2 .framer-1t4tqbp,
-        .framer-PIhx2 .framer-1dwwczc {
+        .framer-JjOXu .framer-22ef1h,
+        .framer-JjOXu .framer-1nbvk1t,
+        .framer-JjOXu .framer-1i60p8t,
+        .framer-JjOXu .framer-1oujeid,
+        .framer-JjOXu .framer-rca2sh,
+        .framer-JjOXu .framer-1t4tqbp,
+        .framer-JjOXu .framer-1dwwczc {
             flex: none;
             width: 30px;
             height: 30px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-1ysj8rr {
+        .framer-JjOXu .framer-1ysj8rr {
             --border-bottom-width: 1px;
             --border-color: #c006;
             --border-left-width: 1px;
@@ -2374,7 +2360,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1cp9ut9 {
+        .framer-JjOXu .framer-1cp9ut9 {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -2397,7 +2383,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-mx7mrm {
+        .framer-JjOXu .framer-mx7mrm {
             background-color: #f7f7f7;
             flex-flow: row;
             flex: none;
@@ -2411,7 +2397,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-rc5h7c {
+        .framer-JjOXu .framer-rc5h7c {
             --border-bottom-width: 0px;
             --border-color: #2121210d;
             --border-left-width: 0px;
@@ -2433,7 +2419,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1wusqzv {
+        .framer-JjOXu .framer-1wusqzv {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 0px;
@@ -2455,7 +2441,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1j5237b {
+        .framer-JjOXu .framer-1j5237b {
             flex-flow: column;
             flex: 1 0 0;
             place-content: center flex-start;
@@ -2469,10 +2455,10 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1tztdko,
-        .framer-PIhx2 .framer-d8yjss,
-        .framer-PIhx2 .framer-1iu7aa7,
-        .framer-PIhx2 .framer-1whuzat {
+        .framer-JjOXu .framer-1tztdko,
+        .framer-JjOXu .framer-d8yjss,
+        .framer-JjOXu .framer-1iu7aa7,
+        .framer-JjOXu .framer-1whuzat {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -2492,14 +2478,14 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1mcz51u,
-        .framer-PIhx2 .framer-1avsy0j,
-        .framer-PIhx2 .framer-173b3ue,
-        .framer-PIhx2 .framer-17bugz9,
-        .framer-PIhx2 .framer-dfbuxl,
-        .framer-PIhx2 .framer-14h374z,
-        .framer-PIhx2 .framer-rt2hwy,
-        .framer-PIhx2 .framer-x1hcyh {
+        .framer-JjOXu .framer-1mcz51u,
+        .framer-JjOXu .framer-1avsy0j,
+        .framer-JjOXu .framer-173b3ue,
+        .framer-JjOXu .framer-17bugz9,
+        .framer-JjOXu .framer-dfbuxl,
+        .framer-JjOXu .framer-14h374z,
+        .framer-JjOXu .framer-rt2hwy,
+        .framer-JjOXu .framer-x1hcyh {
             flex-flow: column;
             flex: none;
             place-content: flex-start;
@@ -2513,17 +2499,17 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-m19jdf,
-        .framer-PIhx2 .framer-mmtizj {
+        .framer-JjOXu .framer-m19jdf,
+        .framer-JjOXu .framer-mmtizj {
             flex: none;
             width: 10px;
             height: 11px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-kdz4ur,
-        .framer-PIhx2 .framer-gpsl9a,
-        .framer-PIhx2 .framer-2c4a4u {
+        .framer-JjOXu .framer-kdz4ur,
+        .framer-JjOXu .framer-gpsl9a,
+        .framer-JjOXu .framer-2c4a4u {
             flex-flow: row;
             flex: none;
             place-content: flex-start center;
@@ -2537,7 +2523,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-x8engt {
+        .framer-JjOXu .framer-x8engt {
             cursor: pointer;
             background: linear-gradient(90deg, #050505 0%, #6b6b6b 50%, #050505 100%);
             border-radius: 10px;
@@ -2554,13 +2540,14 @@
             overflow: visible
         }
 
-        .framer-PIhx2.framer-1d0x7a3 {
+        .framer-JjOXu.framer-1d0x7a3 {
             --border-bottom-width: 1.5px;
             --border-color: #fff3;
             --border-left-width: 1.5px;
             --border-right-width: 1.5px;
             --border-style: solid;
             --border-top-width: 1.5px;
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
             will-change: var(--framer-will-change-effect-override, transform);
             z-index: 4;
@@ -2584,7 +2571,7 @@
             box-shadow: 1px 3px 12px #0000001a
         }
 
-        .framer-PIhx2 .framer-o0wgh1 {
+        .framer-JjOXu .framer-o0wgh1 {
             will-change: var(--framer-will-change-override, transform);
             background-color: #ff00001a;
             border-radius: 73px;
@@ -2601,14 +2588,14 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-1lussy9-container {
+        .framer-JjOXu .framer-1lussy9-container {
             flex: none;
             width: 21px;
             height: 21px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-5yutoy {
+        .framer-JjOXu .framer-5yutoy {
             flex-flow: column;
             flex: none;
             place-content: center;
@@ -2622,8 +2609,8 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-1bwb7us,
-        .framer-PIhx2 .framer-11wm5f8 {
+        .framer-JjOXu .framer-1bwb7us,
+        .framer-JjOXu .framer-11wm5f8 {
             --framer-link-text-color: #09f;
             --framer-link-text-decoration: underline;
             white-space: pre-wrap;
@@ -2635,7 +2622,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-1cmyynj {
+        .framer-JjOXu .framer-1cmyynj {
             background-color: #0a0a0a;
             border-radius: 10px;
             flex-flow: row;
@@ -2651,7 +2638,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-c8vifh {
+        .framer-JjOXu .framer-c8vifh {
             white-space: pre-wrap;
             word-break: break-word;
             word-wrap: break-word;
@@ -2661,7 +2648,7 @@
             position: relative
         }
 
-        .framer-PIhx2 .framer-1h2bedn {
+        .framer-JjOXu .framer-1h2bedn {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -2683,7 +2670,7 @@
             overflow: hidden
         }
 
-        .framer-PIhx2 .framer-x3tx32 {
+        .framer-JjOXu .framer-x3tx32 {
             flex-flow: column;
             flex: none;
             place-content: flex-start;
@@ -2697,15 +2684,15 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1d56eg,
-        .framer-PIhx2 .framer-1prfa2t {
+        .framer-JjOXu .framer-1d56eg,
+        .framer-JjOXu .framer-1prfa2t {
             flex: none;
             width: 10px;
             height: 10px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-k42iae {
+        .framer-JjOXu .framer-k42iae {
             flex-flow: column;
             flex: none;
             place-content: flex-start;
@@ -2719,7 +2706,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1xazb1y {
+        .framer-JjOXu .framer-1xazb1y {
             --border-bottom-width: 1px;
             --border-color: #4c06;
             --border-left-width: 1px;
@@ -2741,7 +2728,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-2wym3a {
+        .framer-JjOXu .framer-2wym3a {
             flex-flow: column;
             flex: none;
             place-content: flex-start;
@@ -2755,7 +2742,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-nv2534 {
+        .framer-JjOXu .framer-nv2534 {
             background-color: #fff;
             flex-flow: row;
             flex: 1 0 0;
@@ -2770,7 +2757,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-dpocpc {
+        .framer-JjOXu .framer-dpocpc {
             flex-flow: column;
             flex: 1 0 0;
             place-content: flex-start center;
@@ -2784,7 +2771,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-5ka7we {
+        .framer-JjOXu .framer-5ka7we {
             flex-flow: row;
             flex: 1 0 0;
             place-content: flex-start;
@@ -2798,7 +2785,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1jp1poo {
+        .framer-JjOXu .framer-1jp1poo {
             flex-flow: column;
             flex: none;
             place-content: flex-start space-between;
@@ -2811,14 +2798,14 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1p1bgi0 {
+        .framer-JjOXu .framer-1p1bgi0 {
             flex: 1 0 0;
             width: 1px;
             height: 100%;
             position: relative
         }
 
-        .framer-PIhx2 .framer-1luz5s0 {
+        .framer-JjOXu .framer-1luz5s0 {
             flex-flow: row;
             flex: none;
             place-content: flex-start space-between;
@@ -2831,7 +2818,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-18kb22c {
+        .framer-JjOXu .framer-18kb22c {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 1px;
@@ -2851,11 +2838,11 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1ukzrku,
-        .framer-PIhx2 .framer-c7ugjq,
-        .framer-PIhx2 .framer-xnco84,
-        .framer-PIhx2 .framer-rlmynw,
-        .framer-PIhx2 .framer-18cyprg {
+        .framer-JjOXu .framer-1ukzrku,
+        .framer-JjOXu .framer-c7ugjq,
+        .framer-JjOXu .framer-xnco84,
+        .framer-JjOXu .framer-rlmynw,
+        .framer-JjOXu .framer-18cyprg {
             flex-flow: row;
             flex: none;
             place-content: center flex-start;
@@ -2869,14 +2856,14 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-16mrcqk {
+        .framer-JjOXu .framer-16mrcqk {
             flex: none;
             width: 26px;
             height: 26px;
             position: relative
         }
 
-        .framer-PIhx2 .framer-1y6lauq {
+        .framer-JjOXu .framer-1y6lauq {
             flex-flow: column;
             flex: none;
             place-content: flex-start;
@@ -2890,10 +2877,10 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1q8zdav,
-        .framer-PIhx2 .framer-1q42cu5,
-        .framer-PIhx2 .framer-qddvmq,
-        .framer-PIhx2 .framer-uxlrb3 {
+        .framer-JjOXu .framer-1q8zdav,
+        .framer-JjOXu .framer-1q42cu5,
+        .framer-JjOXu .framer-qddvmq,
+        .framer-JjOXu .framer-uxlrb3 {
             --border-bottom-width: 1px;
             --border-color: #4c06;
             --border-left-width: 1px;
@@ -2915,7 +2902,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1m60ewy {
+        .framer-JjOXu .framer-1m60ewy {
             flex-flow: row;
             flex: none;
             place-content: center flex-start;
@@ -2929,7 +2916,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-pe1n0x {
+        .framer-JjOXu .framer-pe1n0x {
             background: linear-gradient(90deg, #fc3 0%, #fff2cc 100%);
             border-radius: 100px;
             flex-flow: row;
@@ -2946,7 +2933,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1c1xf8r {
+        .framer-JjOXu .framer-1c1xf8r {
             background: linear-gradient(90deg, #6081ea 0%, #d1dbf9 100%);
             border-radius: 100px;
             flex-flow: row;
@@ -2963,7 +2950,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-byfgqp {
+        .framer-JjOXu .framer-byfgqp {
             background: linear-gradient(90deg, #282828 0%, #a8a8a8 100%);
             border-radius: 100px;
             flex-flow: row;
@@ -2980,7 +2967,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-mm5zta {
+        .framer-JjOXu .framer-mm5zta {
             flex-flow: column;
             flex: none;
             place-content: flex-start flex-end;
@@ -2994,9 +2981,9 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-z33jfw,
-        .framer-PIhx2 .framer-zsf3zr,
-        .framer-PIhx2 .framer-4il6cp {
+        .framer-JjOXu .framer-z33jfw,
+        .framer-JjOXu .framer-zsf3zr,
+        .framer-JjOXu .framer-4il6cp {
             --border-bottom-width: 1px;
             --border-color: #2121210d;
             --border-left-width: 0px;
@@ -3015,7 +3002,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1cf2gyg {
+        .framer-JjOXu .framer-1cf2gyg {
             --border-bottom-width: 1px;
             --border-color: #c006;
             --border-left-width: 1px;
@@ -3037,7 +3024,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-1epj3wb {
+        .framer-JjOXu .framer-1epj3wb {
             border-radius: 10px;
             flex-flow: row;
             flex: none;
@@ -3051,7 +3038,7 @@
             overflow: visible
         }
 
-        .framer-PIhx2 .framer-ybqrhj-container {
+        .framer-JjOXu .framer-ybqrhj-container {
             z-index: 1;
             flex: none;
             width: 1px;
@@ -3066,8 +3053,8 @@
             --framer-link-text-color: #09f
         }
 
-        .framer-PIhx2[data-border=true]:after,
-        .framer-PIhx2 [data-border=true]:after {
+        .framer-JjOXu[data-border=true]:after,
+        .framer-JjOXu [data-border=true]:after {
             content: "";
             border-width: var(--border-top-width, 0)var(--border-right-width, 0)var(--border-bottom-width, 0)var(--border-left-width, 0);
             border-color: var(--border-color, none);
@@ -3082,33 +3069,33 @@
             left: 0
         }
 
-        @media (width>=810px) and (width<=1199.98px) {
-            .framer-PIhx2.framer-72rtr7 {
+        @media (min-width:810px) and (max-width:1199.98px) {
+            .framer-JjOXu.framer-72rtr7 {
                 width: 810px
             }
-            .framer-PIhx2 .framer-fx5i05,
-            .framer-PIhx2 .framer-q13uq5 {
+            .framer-JjOXu .framer-fx5i05,
+            .framer-JjOXu .framer-q13uq5 {
                 flex-direction: column;
                 height: min-content
             }
-            .framer-PIhx2 .framer-21anfs,
-            .framer-PIhx2 .framer-1h2bedn {
+            .framer-JjOXu .framer-21anfs,
+            .framer-JjOXu .framer-1h2bedn {
                 flex: none;
                 width: 100%;
                 height: min-content
             }
-            .framer-PIhx2 .framer-nsude0 {
+            .framer-JjOXu .framer-nsude0 {
                 flex-direction: column;
                 flex: none;
                 height: min-content
             }
-            .framer-PIhx2 .framer-10my308,
-            .framer-PIhx2 .framer-tow32w {
+            .framer-JjOXu .framer-10my308,
+            .framer-JjOXu .framer-tow32w {
                 flex: none;
                 width: 100%;
                 height: 164px
             }
-            .framer-PIhx2 .framer-1b3iwem {
+            .framer-JjOXu .framer-1b3iwem {
                 align-content: unset;
                 align-items: unset;
                 grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -3117,35 +3104,35 @@
                 justify-content: center;
                 display: grid
             }
-            .framer-PIhx2 .framer-1vdvve4,
-            .framer-PIhx2 .framer-1xewmhm,
-            .framer-PIhx2 .framer-1b2tcun {
+            .framer-JjOXu .framer-1vdvve4,
+            .framer-JjOXu .framer-1xewmhm,
+            .framer-JjOXu .framer-1b2tcun {
                 flex: none;
                 place-self: start;
                 width: 100%
             }
-            .framer-PIhx2 .framer-1cp9ut9 {
+            .framer-JjOXu .framer-1cp9ut9 {
                 width: 100%;
                 height: 382px
             }
-            .framer-PIhx2 .framer-nv2534,
-            .framer-PIhx2 .framer-5ka7we {
+            .framer-JjOXu .framer-nv2534,
+            .framer-JjOXu .framer-5ka7we {
                 flex: none;
                 height: min-content
             }
-            .framer-PIhx2 .framer-dpocpc {
+            .framer-JjOXu .framer-dpocpc {
                 height: min-content
             }
-            .framer-PIhx2 .framer-1jp1poo {
+            .framer-JjOXu .framer-1jp1poo {
                 justify-content: center;
                 gap: 24px;
                 height: min-content
             }
-            .framer-PIhx2 .framer-1p1bgi0 {
+            .framer-JjOXu .framer-1p1bgi0 {
                 align-self: stretch;
                 height: auto
             }
-            .framer-PIhx2 .framer-18kb22c {
+            .framer-JjOXu .framer-18kb22c {
                 justify-content: center;
                 gap: 16px;
                 width: 100%;
@@ -3153,46 +3140,46 @@
             }
         }
 
-        @media (width<=809.98px) {
-            .framer-PIhx2.framer-72rtr7 {
+        @media (max-width:809.98px) {
+            .framer-JjOXu.framer-72rtr7 {
                 width: 390px
             }
-            .framer-PIhx2 .framer-5lulpz {
+            .framer-JjOXu .framer-5lulpz {
                 width: min-content;
                 padding: 0 0 0 12px
             }
-            .framer-PIhx2 .framer-170l14k {
+            .framer-JjOXu .framer-170l14k {
                 padding: 0 4px 12px
             }
-            .framer-PIhx2 .framer-fx5i05,
-            .framer-PIhx2 .framer-q13uq5 {
+            .framer-JjOXu .framer-fx5i05,
+            .framer-JjOXu .framer-q13uq5 {
                 flex-direction: column;
                 height: min-content
             }
-            .framer-PIhx2 .framer-21anfs,
-            .framer-PIhx2 .framer-1h2bedn {
+            .framer-JjOXu .framer-21anfs,
+            .framer-JjOXu .framer-1h2bedn {
                 flex: none;
                 width: 100%;
                 height: min-content
             }
-            .framer-PIhx2 .framer-nsude0 {
+            .framer-JjOXu .framer-nsude0 {
                 flex-direction: column;
                 flex: none;
                 height: min-content
             }
-            .framer-PIhx2 .framer-10my308,
-            .framer-PIhx2 .framer-tow32w {
+            .framer-JjOXu .framer-10my308,
+            .framer-JjOXu .framer-tow32w {
                 flex: none;
                 width: 100%;
                 height: 164px
             }
-            .framer-PIhx2 .framer-ojbzol {
+            .framer-JjOXu .framer-ojbzol {
                 order: 2
             }
-            .framer-PIhx2 .framer-13icft6 {
+            .framer-JjOXu .framer-13icft6 {
                 order: 1
             }
-            .framer-PIhx2 .framer-1b3iwem {
+            .framer-JjOXu .framer-1b3iwem {
                 align-content: unset;
                 align-items: unset;
                 grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -3201,35 +3188,35 @@
                 justify-content: center;
                 display: grid
             }
-            .framer-PIhx2 .framer-1vdvve4,
-            .framer-PIhx2 .framer-1xewmhm,
-            .framer-PIhx2 .framer-1b2tcun {
+            .framer-JjOXu .framer-1vdvve4,
+            .framer-JjOXu .framer-1xewmhm,
+            .framer-JjOXu .framer-1b2tcun {
                 flex: none;
                 place-self: start;
                 width: 100%
             }
-            .framer-PIhx2 .framer-1cp9ut9 {
+            .framer-JjOXu .framer-1cp9ut9 {
                 width: 100%;
                 height: 382px
             }
-            .framer-PIhx2 .framer-nv2534,
-            .framer-PIhx2 .framer-5ka7we {
+            .framer-JjOXu .framer-nv2534,
+            .framer-JjOXu .framer-5ka7we {
                 flex: none;
                 height: min-content
             }
-            .framer-PIhx2 .framer-dpocpc {
+            .framer-JjOXu .framer-dpocpc {
                 height: min-content
             }
-            .framer-PIhx2 .framer-1jp1poo {
+            .framer-JjOXu .framer-1jp1poo {
                 justify-content: center;
                 gap: 16px;
                 height: min-content
             }
-            .framer-PIhx2 .framer-1p1bgi0 {
+            .framer-JjOXu .framer-1p1bgi0 {
                 align-self: stretch;
                 height: auto
             }
-            .framer-PIhx2 .framer-18kb22c {
+            .framer-JjOXu .framer-18kb22c {
                 justify-content: center;
                 gap: 0;
                 width: 100%;
@@ -3302,7 +3289,6 @@
 
         .framer-form-text-input .framer-form-input[type=date],
         .framer-form-text-input .framer-form-input[type=time] {
-            -webkit-appearance: none;
             appearance: none
         }
 
@@ -3365,17 +3351,22 @@
             top: 0;
             bottom: 0;
             right: 0;
+            -webkit-mask-position: 10px;
             mask-position: 10px;
+            -webkit-mask-size: 16px;
             mask-size: 16px;
+            -webkit-mask-repeat: no-repeat;
             mask-repeat: no-repeat
         }
 
         .framer-form-text-input .framer-form-input[type=date]:before {
+            -webkit-mask-image: var(--framer-input-icon-mask-image, url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"rgb(153, 153, 153)\" d=\"M3 5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2H3Z\" opacity=\".3\"/><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-width=\"1.5\" d=\"M3.25 5.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2ZM3 6.75h9.5\"/></svg>"));
             mask-image: var(--framer-input-icon-mask-image, url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"rgb(153, 153, 153)\" d=\"M3 5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2H3Z\" opacity=\".3\"/><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-width=\"1.5\" d=\"M3.25 5.25a2 2 0 0 1 2-2h5.5a2 2 0 0 1 2 2v5.5a2 2 0 0 1-2 2h-5.5a2 2 0 0 1-2-2ZM3 6.75h9.5\"/></svg>"));
             background-image: var(--framer-input-icon-image)
         }
 
         .framer-form-text-input .framer-form-input[type=time]:before {
+            -webkit-mask-image: var(--framer-input-icon-mask-image, url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-width=\"1.5\" d=\"M2.5 8a5.5 5.5 0 1 1 11 0 5.5 5.5 0 1 1-11 0Z\"/><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M7.75 8.25v-3m0 3h2\"/></svg>"));
             mask-image: var(--framer-input-icon-mask-image, url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-width=\"1.5\" d=\"M2.5 8a5.5 5.5 0 1 1 11 0 5.5 5.5 0 1 1-11 0Z\"/><path fill=\"transparent\" stroke=\"rgb(153, 153, 153)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M7.75 8.25v-3m0 3h2\"/></svg>"));
             background-image: var(--framer-input-icon-image)
         }
@@ -3421,14 +3412,14 @@
 
     <!-- End of bodyStart -->
     <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;1qgg6nl&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;1sdmzhl&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;}]}"
-        data-framer-ssr-released-at="2025-09-12T08:18:59.719Z" data-framer-page-optimized-at="2025-09-13T13:47:21.987Z" data-framer-generated-page>
+        data-framer-ssr-released-at="2025-09-16T09:47:31.457Z" data-framer-page-optimized-at="2025-09-18T10:02:59.312Z" data-framer-generated-page>
         <!--$-->
         <style data-framer-html-style>
             html body {
                 background: rgb(255, 255, 255);
             }
         </style>
-        <div data-framer-root class="framer-PIhx2 framer-RO3rA framer-72rtr7" style="min-height:100vh;width:auto">
+        <div data-framer-root class="framer-JjOXu framer-RO3rA framer-72rtr7" style="min-height:100vh;width:auto">
             <div class="framer-t04yvy" data-framer-name="Frame 3">
                 <div class="framer-13n1710" data-framer-name="Frame 29">
                     <div class="framer-5lulpz" data-framer-name="Frame 6">
@@ -4301,16 +4292,16 @@
             }
         }()
     </script>
-=
+
     <script data-framer-appear-animation="no-preference"></script>
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/react.Dw6f5O9g.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/rolldown-runtime.DXOHPd_4.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/framer.BcEjyrVd.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/motion.Dh-bqAg_.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/KtlPFmZpQJne8FlWYz_CfiiJNNCeLYyEAWC5GwFcnqM.Br_hqgSk.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/shared-lib.3MvftF0B.mjs">
-    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/script_main.CnPrckUX.mjs">
-    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/script_main.CnPrckUX.mjs"></script>
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/react.DAym2GD8.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/rolldown-runtime.6X8PNUJl.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/framer.CLAdchMt.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/motion.cYC5vKpV.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/Lrjn1FwwoVE7LTe4NcPsm3At-wrbREtTXg4LozyKp0M.BPbMHk04.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/shared-lib.TqOkcm0T.mjs">
+    <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/script_main.z4j497KC.mjs">
+    <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/4NxRXT9YSl5BCKrQawVEdF/script_main.z4j497KC.mjs"></script>
     <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" id="svg-403962240_979">
 <path d="M11.6769 8.67348C11.8274 8.43697 12.1726 8.43697 12.3231 8.67348L12.7586 9.35767C13.2401 10.1143 13.8818 10.756 14.6384 11.2375L15.3226 11.6729C15.5591 11.8235 15.5591 12.1687 15.3226 12.3192L14.6384 12.7547C13.8818 13.2362 13.2401 13.8779 12.7586 14.6345L12.3231 15.3187C12.1726 15.5552 11.8274 15.5552 11.6769 15.3187L11.2414 14.6345C10.7599 13.8779 10.1182 13.2362 9.36157 12.7547L8.67738 12.3192C8.44087 12.1687 8.44087 11.8235 8.67738 11.6729L9.36157 11.2375C10.1182 10.756 10.7599 10.1143 11.2414 9.35767L11.6769 8.67348Z" stroke="#212121" stroke-width="1.25" stroke-linejoin="round"/>
